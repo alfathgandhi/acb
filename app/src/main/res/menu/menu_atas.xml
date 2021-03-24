@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+
+    <item
+
+        android:id="@+id/bt_logout"
+        android:title="Logout"
+        />
+    <item
+        android:id="@+id/ganti_pass"
+        android:title="Ganti Password"
+        />
+    <item
+        android:id="@+id/tambah_type"
+        android:title="Tambah Kategori"
+        />
+
+    <item
+        android:id="@+id/tambah_part"
+        android:title="Tambah Materi"
+        />
+
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        />
+
+    <item
+        android:id="@+id/firebase"
+        android:title="Firebase"/>
+
+</menu>

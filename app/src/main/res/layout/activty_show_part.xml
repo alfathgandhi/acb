@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="195dp">
+
+    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+        android:id="@+id/img_showPart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <TextView
+        android:layout_marginVertical="8dp"
+        android:layout_width="wrap_content"
+
+
+        android:layout_height="wrap_content"
+        android:text="Informasi Materi"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="25sp"
+        android:textColor="@color/hitam"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <ScrollView android:layout_width="match_parent"
+android:fillViewport="true"
+
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            android:padding="10dp"
+
+            >
+
+            <TextView
+
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_italic"
+                android:text="Isi Materi"
+                android:textSize="19sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_isi_showpart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Isi dari Metode Ukur Plane"
+
+                />
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/keterangan_tv"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_italic"
+                android:text="Keterangan"
+                android:textSize="19sp"
+
+
+                />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_keterangan_showpart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Isi dari Keterangan"
+
+
+                />
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/product_sans_italic"
+                android:text="Kategori"
+                android:textSize="19sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/tv_kategori_part"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="4dp"
+                android:fontFamily="@font/product_sans_regular"
+                android:text="Isi dari Type"
+
+
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/uploaded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="Uploaded by: Nama User" />
+
+
+
+
+</LinearLayout>
+
+

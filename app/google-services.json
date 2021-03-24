@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "235692203940",
+    "project_id": "materi-app",
+    "storage_bucket": "materi-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235692203940:android:241df3654a8fce572b2b31",
+        "android_client_info": {
+          "package_name": "org.d3ifcool.materi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235692203940-8ka2b9ka4ua2pdjiq8j93qp05p7vbf0r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.d3ifcool.materi",
+            "certificate_hash": "fc2bd862f067440cf7c11c5721546da5e93865b7"
+          }
+        },
+        {
+          "client_id": "235692203940-j1fkghdcoi7l8o8a0ilvjmfepl9bdec7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2uz5v5GZkmg3qz8wmAQ0aInxPl7CX5cM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235692203940-j1fkghdcoi7l8o8a0ilvjmfepl9bdec7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

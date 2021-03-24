@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginHorizontal="30dp"
+    android:layout_marginVertical="10dp"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:inputType="textPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_bold"
+        android:id="@+id/tv_namaPart"
+        android:text="Nama Materi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_namaPart"
+        android:background="@drawable/login_layout"
+        app:layout_constraintTop_toBottomOf="@+id/tv_namaPart"
+        android:padding="5dp"
+        android:layout_marginVertical="5dp"
+        />
+
+
+
+
+
+    <TextView
+        android:fontFamily="@font/product_sans_bold"
+        android:id="@+id/tv_namaType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Isi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_namaPart"/>
+
+    <EditText
+        android:padding="5dp"
+        android:layout_marginVertical="5dp"
+        android:inputType="textPersonName"
+        android:id="@+id/et_isi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_layout"
+        app:layout_constraintTop_toBottomOf="@+id/tv_namaType"
+        tools:layout_editor_absoluteX="40dp" />
+    <TextView
+        android:fontFamily="@font/product_sans_bold"
+        android:id="@+id/passLama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keterangan"
+        app:layout_constraintTop_toBottomOf="@+id/et_isi"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+    <EditText
+        android:padding="5dp"
+        android:layout_marginVertical="5dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/login_layout"
+        android:id="@+id/et_ket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/passLama"/>
+
+
+
+
+
+
+    <TextView
+        android:fontFamily="@font/product_sans_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_type"
+        android:text="Kategori"
+        app:layout_constraintTop_toBottomOf="@+id/et_ket"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <EditText
+        android:padding="5dp"
+        android:layout_marginVertical="5dp"
+        android:inputType="textPersonName"
+        android:id="@+id/et_part_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_type"
+        android:background="@drawable/login_layout"/>
+
+
+
+    <TextView
+        android:fontFamily="@font/product_sans_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_part_gambar"
+        android:text="Gambar"
+        app:layout_constraintTop_toBottomOf="@+id/et_part_type"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv_part_gambar"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/imageCircle"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@color/abumuda" />
+
+        <ImageView
+            android:id="@+id/addFhoto"
+            android:background="@drawable/bulat"
+            android:padding="7dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_add_a_photo_24" />
+
+
+
+    </RelativeLayout>
+
+
+        
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
